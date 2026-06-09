@@ -19,6 +19,10 @@ public class InternshipManagerApplication {
 		StudentRepository repo = beanBag.getBean(StudentRepository.class);
 		repo.save(student);
 
+		System.out.println();
+
 	}
+
+//	public void mangleParam(Student )
 
 }
